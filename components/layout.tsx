@@ -22,6 +22,7 @@ export default function Layout({
 
   return (
     <div>
+      <div>d</div>
       <div className="bg-white w-full max-w-xl text-lg font-medium py-3 fixed text-gray-800 border-b top-0 flex justify-center items-center">
         {canGoBack ? <button onClick={onClick}>&larr;</button> : null}
         {title ? <span>{title}</span> : null}
